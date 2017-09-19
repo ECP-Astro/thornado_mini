@@ -1,0 +1,3 @@
+FIELDS = \
+  FluidFieldsModule.o \
+  RadiationFieldsModule.o
