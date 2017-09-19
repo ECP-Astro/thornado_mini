@@ -1,0 +1,13 @@
+WEAKLIB = \
+  wlKindModule.o \
+  wlGridModule.o \
+  wlThermoStateModule.o \
+  wlDependentVariablesModule.o \
+  wlInterpolationModule.o \
+  wlEquationOfStateTableModule.o \
+  wlIOModuleHDF.o \
+  wlEOSIOModuleHDF.o \
+  wlOpacityFieldsModule.o \
+  wlOpacityTableModule.o \
+  wlOpacityTableIOModuleHDF.o
+

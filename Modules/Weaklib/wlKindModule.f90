@@ -1,0 +1,8 @@
+MODULE wlKindModule
+
+  IMPLICIT NONE
+  PRIVATE
+
+  INTEGER, PUBLIC, PARAMETER :: dp = 8
+
+END MODULE wlKindModule
