@@ -1,0 +1,18 @@
+RAD_HYDRO = \
+  TallyModule.o \
+  GravitySolutionModule.o \
+  RiemannSolverModule.o \
+  EulerEquationsUtilitiesModule.o \
+  FluidEvolutionModule.o \
+  MomentEquationsUtilitiesModule.o \
+  MomentEquationsSolutionModule_M1_DG.o \
+  MomentEquationsLimiterUtilitiesModule_DG.o \
+  MomentEquationsLimiterModule_DG.o \
+  MomentEquationsSlopeLimiterModule_DG.o \
+  MomentEquationsPositivityLimiterModule_DG.o \
+  RadiationEvolutionModule.o \
+  FluidRadiationCouplingUtilitiesModule.o \
+  FluidRadiationCouplingSolutionModule_EmAbScatt.o \
+  FluidRadiationCouplingModule.o \
+  ApplicationBoundaryConditionsModule.o \
+  BoundaryConditionsModule.o
