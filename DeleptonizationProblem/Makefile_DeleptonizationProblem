@@ -1,0 +1,15 @@
+include ../../Build/Makefile_Build
+
+all: DeleptonizationProblem1D
+
+DeleptonizationProblem1D: \
+	$(thornado) InitializationModule.o DeleptonizationProblem1D.o
+	$(FLINKER) $(FLAGS) -o DeleptonizationProblem1D_$(MACHINE) \
+	$(thornado) InitializationModule.o DeleptonizationProblem1D.o \
+	$(LIBRARIES)
+
+clean:
+	rm -f *.o *.mod *.ld
+
+clobber: clean
+	rm -f DeleptonizationProblem1D_$(MACHINE)
