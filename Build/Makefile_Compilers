@@ -30,11 +30,21 @@ INCLUDE_HDF5_titan_gnu  = # Use Module Load
 INCLUDE_HDF5_titan_cray = # Use Module Load
 INCLUDE_HDF5            = $(INCLUDE_HDF5_$(MACHINE))
 
-INCLUDE = $(INCLUDE_HDF5)
+INCLUDE_LAPACK_mac_gnu    = # Provided by -framework Accelerate
+INCLUDE_LAPACK_titan_gnu  = # Provided by LibSci
+INCLUDE_LAPACK_titan_cray = # Provided by LibSci
+INCLUDE_LAPACK            = $(INCLUDE_LAPACK_$(MACHINE))
+
+INCLUDE = $(INCLUDE_HDF5) $(INCLUDE_LAPACK)
 
 LIBRARIES_HDF5_mac_gnu    = -L/usr/local/Cellar/hdf5/1.8.16_1/lib -lhdf5_fortran -lhdf5
 LIBRARIES_HDF5_titan_gnu  = # Use Module Load
 LIBRARIES_HDF5_titan_cray = # Use Module Load
 LIBRARIES_HDF5            = $(LIBRARIES_HDF5_$(MACHINE))
 
-LIBRARIES = $(LIBRARIES_HDF5)
+LIBRARIES_LAPACK_mac_gnu    = # Provided by -framework Accelerate
+LIBRARIES_LAPACK_titan_gnu  = # Provided by LibSci
+LIBRARIES_LAPACK_titan_cray = # Provided by LibSci
+LIBRARIES_LAPACK            = $(LIBRARIES_LAPACK_$(MACHINE))
+
+LIBRARIES = $(LIBRARIES_HDF5) $(LIBRARIES_LAPACK)
