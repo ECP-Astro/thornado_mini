@@ -7,6 +7,8 @@ To compile and run the code you need a Fortran compiler, hdf5, mpi, and LAPACK.
 
 thornado_mini is divided into the main directories "Build", "Modules", "Workflow", and the application directory "DeleptonizationProblem1D".
 
+DeleptonizationProblem1D is described in Section 8.3 in ORNL/TM-2017/501 (Currently in review.)
+
 "Build/Makefile_Compilers" contains machine specific compiler options, and is the only makefile that needs to be configured.  Example configurations are provided for compiling on a mac (using the gfortran compiler), and the titan machine at the Oak Ridge Leadership Computing Faccility (OLCF; using both the gnu and cray compilers).  Additional machines can be added by following the examples provided.  
 
 Let's say you would like to compile using your favorite compiler.   We'll call this option mymachine:  
