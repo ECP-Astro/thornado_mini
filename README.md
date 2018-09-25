@@ -35,7 +35,7 @@ You are using the "mymachine" configuration discussed above, and you have placed
 	type "make".  This will generate the executable DeleptonizationProblem1D_mymachine
 
 4. Copy or link the equation of state table (must be named named "EquationOfStateTable.h5") and the opacity table (must be named "OpacityTable.h5") into mydir/thornado_mini/DeleptonizationProblem/Executables.
-   Equation of state tables and opacity tables needed for DeleptonizationProblem1D can be found at https://code.ornl.gov/m2o/thornado-mini-tables/mini-app.  These are low-resolution tables: the equation of state table is about 53 MB, while the opacity table is about 260 MB.  
+   Equation of state tables and opacity tables needed for DeleptonizationProblem1D can be found at https://code.ornl.gov/m2o/thornado-tables/mini-app.  These are low-resolution tables: the equation of state table is about 53 MB, while the opacity table is about 260 MB.  
 
 5. Run the executable in mydir/thornado_mini/DeleptonizationProblem/Executables
 
